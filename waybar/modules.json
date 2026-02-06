@@ -1,0 +1,76 @@
+{
+    "tray": {
+        "icon-size": 18,
+        "rotate": 0,
+        "spacing": 10
+    },
+
+    "pulseaudio": {
+	"format": "{icon}  {volume}%",
+	"format-muted": "   {volume}%",
+	"format-icons": {
+	"default": [" ", " ", "  "]
+    },
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    },
+
+    "network": {
+        "format-wifi": "{icon}",
+        "format-ethernet": "{ipaddr}/{cidr}   ",
+        "tooltip-format": "{essid} ({signalStrength}%)",
+        "format-linked": "{ifname} (No IP)  ",
+        "format-disconnected": "Disconnected ⚠",
+	"format-icons": ["󰤫 ", "󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "],
+	"on-click": "nm-connection-editor"
+	 
+    },
+    "cpu": {
+        "format": "   {usage}%",
+        "tooltip": true
+    },
+    "memory": {
+        "format": "   {}%",
+	"tooltip": true
+    },
+    "temperature": {
+        "interval": 10,
+        "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon4/temp1_input",
+        "critical-threshold": 100,
+        "format-critical": " {temperatureC}",
+        "format": " {temperatureC}°C"
+    },
+    "hyprland/language": {
+       "format": "{}",
+       "format-en": "en",
+       "format-ru": "ru"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-full": "{icon}   {capacity}%",
+        "format-charging": "󰂄  {capacity}%",
+        "format-plugged": "󰂄  {capacity}%",
+        "format-alt": "{time}  {icon}",
+        "format-icons": [" ", " ", " ", " ", " "]
+    },
+
+     "clock": {
+        "format": "{:%H:%M / %e %B}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    
+     "clock": {
+        "format": "{:%H:%M / %e %B}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    }
+}
+

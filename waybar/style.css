@@ -1,0 +1,95 @@
+* {
+    font-family: "SpaceMono Nerd Font";
+    font-size: 15px;
+    transition: background-color .3s ease-out;
+    font-weight: bold;
+}
+
+window#waybar {
+    background: rgba(26, 27, 38, 0);
+    color: #c0caf5;
+    font-weight: bold;
+    font-family: 
+        SpaceMono Nerd Font;
+    transition: background-color .5s;
+}
+
+.modules-left,
+.modules-center,
+.modules-right
+{
+    background: rgba(0, 0, 8, .6);
+    font-weight: bold;
+    font-family: 
+        SpaceMono Nerd Font;
+    margin: 5px 10px;
+    padding: 0 5px;
+    border-radius: 20px;
+}
+.modules-left {
+    padding: 0;
+    font-family: 
+        SpaceMono Nerd Font;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.modules-center {
+    padding: 0 10px;
+    font-family: 
+        SpaceMono Nerd Font;
+    font-weight: bold;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#tray,
+#language {
+    padding: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 
+SpaceMono Nerd Font;
+}
+
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#network:hover,
+#pulseaudio:hover,
+#tray:hover,
+#language:hover {
+    background: rgba(26, 27, 38, 0.9);
+    font-weight: bold;
+}
+
+
+#workspaces button {
+  background: transparent;
+  font-family:
+    SpaceMono Nerd Font,
+    feather;
+  font-weight: bold;
+  font-size: 13pt;
+  color: #c0caf5;
+  border: none;
+  border-radius: 20px;
+}
+
+#workspaces button.active {
+    background: rgba(255, 255, 255, 0.09);
+    font-weight: bold;
+}
+
+#workspaces button:hover {
+  background: #11111b;
+  font-weight: bold;
+  color: #cdd6f4;
+  box-shadow: none;
+}

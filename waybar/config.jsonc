@@ -1,0 +1,27 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 42,
+    "spacing": 0,
+
+    "modules-left": [
+	"tray",
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "cpu",
+        "memory",
+        "temperature"
+    ],
+    "modules-right": [
+	"battery",
+        "pulseaudio",
+        "hyprland/language",
+        "network",
+        "clock"
+    ],
+
+    "include": [
+		"~/.config/waybar/modules.json"
+	]
+}
