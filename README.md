@@ -26,5 +26,6 @@
 - **Rofimoji**: A character picker for rofi
 - **Waybar**: Wayland bar
 - **Pipewire**: low-level multimedia framework
+- **SwayNC**: Beautiful Notification Center
 
 </details>
