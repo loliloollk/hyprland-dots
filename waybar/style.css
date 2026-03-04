@@ -1,5 +1,5 @@
 * {
-    font-family: "SpaceMono Nerd Font";
+    font-family: "Ubuntu Nerd Font";
     font-size: 15px;
     transition: background-color .3s ease-out;
     font-weight: bold;
@@ -10,7 +10,7 @@ window#waybar {
     color: #c0caf5;
     font-weight: bold;
     font-family: 
-        SpaceMono Nerd Font;
+        Ubuntu Nerd Font;
     transition: background-color .5s;
 }
 
@@ -21,7 +21,7 @@ window#waybar {
     background: rgba(0, 0, 8, .6);
     font-weight: bold;
     font-family: 
-        SpaceMono Nerd Font;
+        Ubuntu Nerd Font;
     margin: 5px 10px;
     padding: 0 5px;
     border-radius: 20px;
@@ -36,7 +36,7 @@ window#waybar {
 .modules-center {
     padding: 0 10px;
     font-family: 
-        SpaceMono Nerd Font;
+        Ubuntu Nerd Font;
     font-weight: bold;
 }
 
@@ -53,7 +53,7 @@ window#waybar {
     border-radius: 20px;
     font-weight: bold;
     font-family: 
-SpaceMono Nerd Font;
+      Ubuntu Nerd Font;
 }
 
 #clock:hover,
