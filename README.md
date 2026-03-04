@@ -29,3 +29,17 @@
 - **SwayNC**: Beautiful Notification Center
 
 </details>
+
+# How install the dots?
+## Full dots :
+```bash
+git clone https://github.com/loliloollk/hyprland-dots.git
+sudo mv hyprland-dots/* ~/.config
+```
+### If you want to install only the waybar :
+```bash
+git clone https://github.com/loliloollk/hyprland-dots.git
+sudo mv hyprland-dots/waybar ~/.config
+```
+
+
