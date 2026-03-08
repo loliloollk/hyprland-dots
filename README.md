@@ -10,14 +10,14 @@
 </details>
 
  <details> 
-  <summary>Important programs for my rice</summary>
+  <summary>Important programs for this rice</summary>
 
 - **Rofi**: Application's menu
 - **Waypaper**: GUI Wallpaper manager for wayland
 - **Nemo**: File manager
 - **Alacritty**: Linux terminal
 - **Qview**: The image viewer
-- **MPV**: The video viewer
+- **TLP**: Power management daemon
 - **Catppuccin-gtk-theme-mocha**: GTK theme
 - **Polkit-gnome**: Gnome authentication agent
 - **Wl-clipboard**: Wayland clipboard utilities
