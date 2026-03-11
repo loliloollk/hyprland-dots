@@ -8,7 +8,6 @@
 - **Waypaper**: GUI Wallpaper manager for wayland
 - **Nemo**: File manager
 - **Alacritty**: Linux terminal
-- **Qview**: The image viewer
 - **TLP**: Power management daemon
 - **Catppuccin-gtk-theme-mocha**: GTK theme
 - **Polkit-gnome**: Gnome authentication agent
