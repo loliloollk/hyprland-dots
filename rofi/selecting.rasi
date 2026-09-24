@@ -15,7 +15,7 @@ window {
     enabled:                     true;
     fullscreen:                  false;
     width:                       100%;
-    transparency:                "real";
+    transparency:                "border-radiusal";
     cursor:                      "default";
     spacing:                     0px;
     padding:                     0px;
