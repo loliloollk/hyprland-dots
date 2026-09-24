@@ -8,7 +8,7 @@
 - **Waypaper**: GUI Wallpaper manager for wayland
 - **Nemo**: File manager
 - **Alacritty**: Linux terminal
-- **TLP**: Power management daemon
+- **Power-profiles-daemon**: Power management daemon
 - **Catppuccin-gtk-theme-mocha**: GTK theme
 - **Polkit-gnome**: Gnome authentication agent
 - **Wl-clipboard**: Wayland clipboard utilities
@@ -16,21 +16,22 @@
 - **Grim and Slurp**: Programs for screenshots
 - **Rofimoji**: A character picker for rofi
 - **Waybar**: Wayland bar
-- **Pipewire**: low-level multimedia framework
 - **SwayNC**: Beautiful Notification Center
 
 </details>
 
 # How install the dots?
-## Full dots :
+## Installing all dependencies:
+```bash
+yay -S alacritty rofi polkit-gnome wl-clipboard cliphist grim slurp swaync rofimoji power-profiles-daemon waypaper nemo Catppuccin-gtk-theme-mocha bibata-cursor-git waybar
+```
+## Or installing Necessary dependencies:
+```bash
+yay -S alacritty rofi polkit-gnome wl-clipboard cliphist grim slurp swaync rofimoji power-profiles-daemon waybar
+```
+
 ```bash
 git clone https://github.com/loliloollk/hyprland-dots.git
 sudo mv hyprland-dots/* ~/.config
 ```
-### If you want to install only the waybar :
-```bash
-git clone https://github.com/loliloollk/hyprland-dots.git
-sudo mv hyprland-dots/waybar ~/.config
-```
-
 
