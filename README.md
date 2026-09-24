@@ -25,7 +25,7 @@
 ```bash
 yay -S alacritty rofi polkit-gnome wl-clipboard cliphist grim slurp swaync rofimoji power-profiles-daemon waypaper nemo Catppuccin-gtk-theme-mocha bibata-cursor-git waybar
 ```
-## Or installing Necessary dependencies:
+## Or installing only necessary dependencies:
 ```bash
 yay -S alacritty rofi polkit-gnome wl-clipboard cliphist grim slurp swaync rofimoji power-profiles-daemon waybar
 ```
